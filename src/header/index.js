@@ -18,7 +18,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link  className="navbar-brand nav_ac" to="/">
-            Hamza Abid
+            Amar Hussain
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
@@ -44,6 +44,9 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
                   <li className="menu_item">
+                  <Link onClick={handleToggle} to="/testimonials" className="my-3"> Testimonials</Link>
+                  </li>
+                  <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
                 </ul>
@@ -54,7 +57,8 @@ const Headermain = () => {
             <div className="d-flex">
             <a href={socialprofils.facebook}>Facebook</a>
             <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.twitter}>Twitter</a>
+            <a href={socialprofils.fiver}>Fiver</a>
+            <a href={socialprofils.upwork}>UpWork</a>
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>

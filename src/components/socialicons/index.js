@@ -14,13 +14,6 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.twitter && (
-          <li>
-            <a href={socialprofils.twitter}>
-              <FaTwitter />
-            </a>
-          </li>
-        )}
         {socialprofils.github && (
           <li>
             <a href={socialprofils.github}>
@@ -35,24 +28,17 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.linkedin && (
+        {socialprofils.fiver && (
           <li>
-            <a href={socialprofils.linkedin}>
-              <FaLinkedin />
+            <a className=" text-decoration-none" href={socialprofils.fiver}>
+              <h5>Fiverr</h5>
             </a>
           </li>
         )}
-        {socialprofils.youtube && (
+        {socialprofils.upwork && (
           <li>
-            <a href={socialprofils.youtube}>
-              <FaYoutube />
-            </a>
-          </li>
-        )}
-        {socialprofils.twitch && (
-          <li>
-            <a href={socialprofils.twitch}>
-              <FaTwitch />
+            <a className=" text-decoration-none" href={socialprofils.upwork}>
+              <h6>UpWork</h6>
             </a>
           </li>
         )}

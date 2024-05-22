@@ -1,33 +1,33 @@
-const logotext = "Hamza";
+const logotext = "Amar";
 const meta = {
-    title: "Hamza Abid",
-    description: "I’m Hamza Abid Full stack devloper",
+    title: "Amar Hussain",
+    description: "I’m Amar Hussain Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m Hamza Abid",
+    title: "I’m Amar Hussain",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Expertise in Full-Stack Devlopment",
+        second: "Innovative Problem Solver",
+        third: "Contineous Learner And Innovator",
     },
-    description: "Expert in MERN stack, seamlessly blending MongoDB, Express.js, React.js, and Node.js to craft scalable and immersive web applications. A Full Stack developer with a passion for building end-to-end solutions, ensuring top-notch performance and user experiences.",
+    description: "As a software engineer, I thrive at the intersection of innovation and functionality, transforming abstract concepts into cutting-edge software solutions that enhance everyday life. My passion for technology drives me to continuously learn and adapt, mastering new programming languages and frameworks to stay ahead in this rapidly evolving field. I delight in solving complex problems, debugging code, and optimizing performance to create seamless user experiences.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Hello! I'm Hamza Abid, a passionate Full Stack Web Developer with a love for turning ideas into interactive and seamless digital experiences. Armed with a robust skill set in both front-end and back-end technologies, I specialize in crafting intuitive user interfaces using modern frameworks like React.js. My expertise extends to server-side development, database management, and API design, allowing me to bring a holistic approach to web development projects. From concept to deployment, I thrive on creating innovative, scalable, and high-performance solutions that make a lasting impact. Let's build something amazing together!",
+    title: "A bit about my self",
+    aboutme: "Hello! I'm Amar Hussain, My Collaboration is at the heart of my work, as I engage with cross-functional teams to bring diverse perspectives into the development process. Each line of code I write is a testament to my commitment to excellence, efficiency, and creativity, contributing to impactful projects that shape the digital world.",
 };
 const worktimeline = [{
-        jobtitle: "Developer",
+        jobtitle: "Full Stack Developer",
         where: "Pakistan",
-        date: "2023",
+        date: "2015",
     },
     {
         jobtitle: "Front End Web Developer",
         where: "Pakistan",
-        date: "2023",
+        date: "2018",
     },
     {
         jobtitle: "Full Stack Mern Developer",
@@ -37,20 +37,28 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Html/Css",
+        name: "Front-End Designs",
         value: 90,
     },
     {
-        name: "Bootstrap/Tailwind",
+        name: "Back-End Functionality",
         value: 85,
     },
     {
-        name: "Javascript/React",
-        value: 70,
+        name: "Php/Laravel",
+        value: 80,
+    },
+    {
+        name: "MySql",
+        value: 80,
     },
     {
         name: "Node",
-        value: 70,
+        value: 80,
+    },
+    {
+        name: "Javascript/React",
+        value: 80,
     },
     {
         name: "Express/MongoDB",
@@ -60,15 +68,15 @@ const skills = [{
 
 const services = [{
         title: "Full Stack Mern Developer",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "As a Full Stack Developer, I bridge the gap between front-end aesthetics and back-end functionality, seamlessly integrating both to create cohesive, dynamic web applications. I wield a versatile skill set that spans across databases, server management, user interface design, and client-side scripting, enabling me to build robust and scalable solutions from the ground up.",
     },
     {
-        title: "Web Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Front-End",
+        description: "As a Front End Developer, I specialize in crafting visually stunning and intuitive user interfaces that provide seamless and engaging user experiences. With a keen eye for design and proficiency in HTML, CSS, and JavaScript frameworks like React and Angular, I transform static designs into interactive, responsive web pages that captivate users and enhance usability.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Back-End",
+        description: "As a Back End Developer, I focus on the core logic, database interactions, server scripting, and application integration that power web applications. My expertise in server-side languages like Node.js, Python, or Java, along with my knowledge of databases such as SQL and NoSQL, ensures that the infrastructure behind the scenes is secure, efficient, and capable of handling complex functionalities and large-scale data processing.",
     },
 ];
 
@@ -136,22 +144,22 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "hachohan0987@gmail.com",
-    YOUR_FONE: "(92)302-4579819",
+    YOUR_EMAIL: "amarshakir44@gmail.com",
+    YOUR_FONE: "(92)305-1687702",
     description: "Reach out to us effortlessly! Whether you have questions, feedback, or want to explore collaboration opportunities, our dedicated team is here to assist you. Connect with us for personalized and prompt support, and let's embark on a journey to enhance your digital experience together.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_641dfuj",
-    YOUR_TEMPLATE_ID: "template_hdgy2hq",
+    YOUR_SERVICE_ID: "service_qs22m0k",
+    YOUR_TEMPLATE_ID: "template_75rbikc",
     // YOUR_USER_ID: "user_id",
-    YOUR_PUBLIC_KEY: "jEDHb_ZtdIW4uthcE"
+    YOUR_PUBLIC_KEY: "rByUzJE3HWpFZmYOr"
 };
 
 const socialprofils = {
-    github: "https://github.com/Hamza-abid-dev",
-    facebook: "https://www.facebook.com/Hamza.Abid.Chohan",
-    linkedin: "https://www.linkedin.com/in/hamza-abid-827b48294/",
-    twitter: "https://twitter.com/NoOne1137481",
+    github: "https://github.com/amarhussainn0094",
+    facebook: "https://www.facebook.com/people/Amar-Hussain/pfbid02qQVnN2uxRi2dtALrVBKqdcYEwk2EwmycmRjjK8cYZAhgLL4MSw7GzetrLFruB9DVl/?mibextid=JRoKGi",
+    fiver: "https://www.fiverr.com/s/La8477",
+    upwork: "https://www.upwork.com/freelancers/~013eee1ede217aa866",
 };
 export {
     meta,
