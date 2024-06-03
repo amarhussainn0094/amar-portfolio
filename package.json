@@ -1,5 +1,6 @@
 {
-    "name": "hamza_abid",
+    "homepage": "https://amarhussainn0094.github.io/Amar-portfolio/",
+    "name": "Amar Hussain",
     "version": "0.1.0",
     "private": false,
     "dependencies": {
@@ -21,7 +22,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
@@ -43,6 +44,7 @@
         ]
     },
     "devDependencies": {
+        "gh-pages": "^6.1.1",
         "netlify-cli": "^17.13.2"
     }
 }

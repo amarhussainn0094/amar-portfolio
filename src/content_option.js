@@ -1,3 +1,9 @@
+import review1 from "./pages/portfolio/1.jpg"
+import review2 from "./pages/portfolio/2.jpg"
+import review3 from "./pages/portfolio/3.jpg"
+import review4 from "./pages/portfolio/4.jpg"
+import review5 from "./pages/portfolio/5.jpg"
+
 const logotext = "Amar";
 const meta = {
     title: "Amar Hussain",
@@ -81,27 +87,27 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: `{portfolio1}`,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: {review2},
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: {review3},
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: {review4},
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: {review5},
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -142,6 +148,27 @@ const dataportfolio = [{
         link: "#",
     },
 ];
+const datatestimonials = [{
+    img: {review1},
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: {review2},
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: {review3},
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: {review4},
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+}
+];
 
 const contactConfig = {
     YOUR_EMAIL: "amarshakir44@gmail.com",
@@ -165,6 +192,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    datatestimonials,
     worktimeline,
     skills,
     services,
