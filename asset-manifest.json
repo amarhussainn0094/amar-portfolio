@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/amar-portfolio/static/css/main.c2317303.css",
+    "main.js": "/amar-portfolio/static/js/main.20e719e3.js",
+    "static/media/amar.jpeg": "/amar-portfolio/static/media/amar.177869d67175e5330640.jpeg",
+    "static/media/3.jpg": "/amar-portfolio/static/media/3.825a5f1a44392724123f.jpg",
+    "static/media/1.jpg": "/amar-portfolio/static/media/1.ff17e454ef2a34d19ff3.jpg",
+    "static/media/4.jpg": "/amar-portfolio/static/media/4.f5a7a454f1a58d02cac3.jpg",
+    "static/media/2.jpg": "/amar-portfolio/static/media/2.f2418a8e64758f2d178b.jpg",
+    "static/media/5.jpg": "/amar-portfolio/static/media/5.a27f83400770a0a0ea2c.jpg",
+    "index.html": "/amar-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c2317303.css",
+    "static/js/main.20e719e3.js"
+  ]
+}
