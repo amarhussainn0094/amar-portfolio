@@ -58,7 +58,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
+                    <div id="button_h" className="ac_btn btn mt-2 mx-auto">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
