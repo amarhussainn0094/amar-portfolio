@@ -1,1 +1,1 @@
-https://hamza-abid-dev.github.io/Portfolio.github.io/
+https://amarhussainn0094.github.io/amar-portfolio/
